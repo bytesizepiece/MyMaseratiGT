@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  background-color: teal;
+}
+
+.bannerContain {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#bannerLink {
+  margin: opx auto;
+}
+
+#bannerImage {
+  display: inline;
+  height: 100px;
+  width: auto;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 300px 300px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.3rem 2rem;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+section {
+  width: 90vw;
+  max-width: 900px;
+  margin: 1rem auto 1rem;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content {
+  width: 90vw;
+  max-width: 900px;
+  border: 2px solid red;
+  height: fit-content;
+  margin-bottom: 4rem;
+}
+
+.image {
+  width: 100%;
+  margin: 0px auto 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+  object-fit: cover;
+}
+
+ul {
+  padding-left: 2rem;
+}
+
+h1 {
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  width: 100vw;
+  background-size: contain;
+  display: flex;
+  height: 2rem;
+  padding-bottom: 0.2rem;
+  clear: both;
+  background-color: teal;
+}
+
+.footerContent {
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#disclaimer {
+  font-style: italic;
+  font-weight: lighter;
+}
