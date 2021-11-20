@@ -3,10 +3,15 @@
   padding: 0px;
 }
 
+body {
+  color: white;
+  background-color: black;
+}
+
 header {
   display: flex;
   height: 100px;
-  background-color: teal;
+  background-color: black;
 }
 
 .bannerContain {
