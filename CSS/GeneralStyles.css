@@ -109,7 +109,9 @@ section {
   width: 90vw;
   max-width: 900px;
   height: fit-content;
+  padding-bottom: 1.5rem;
   margin-bottom: 4rem;
+  border-bottom: grey 0.5rem solid;
 }
 
 .image {
