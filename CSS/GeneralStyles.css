@@ -5,7 +5,16 @@
 
 body {
   color: white;
-  background-color: black;
+background-color: black;
+}
+
+.backgroundimage{
+background-image: url(/images/Background/MaseratiTridentWallpaperline.jpg);
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
 }
 
 header {
@@ -26,7 +35,7 @@ header {
 #bannerImage {
   display: inline;
   height: 100px;
-  width: auto;
+  width: auto;S
 }
 
 /* Navbar container */
@@ -36,6 +45,7 @@ header {
   font-family: Arial;
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 /* Links inside the navbar */
@@ -110,13 +120,19 @@ section {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-decoration: underline;
+}
+
 .content {
   width: 90vw;
   max-width: 900px;
   height: fit-content;
-  padding-bottom: 1.5rem;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
   border-bottom: grey 0.5rem solid;
+  margin-bottom: 4rem;
 }
 
 .image {
@@ -133,9 +149,11 @@ ul {
 }
 
 h1 {
+  text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 footer {
