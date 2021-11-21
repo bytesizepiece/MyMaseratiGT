@@ -8,14 +8,14 @@ body {
 background-color: black;
 }
 
-.backgroundimage{
+/*.backgroundimage{
 background-image: url(/images/Background/MaseratiTridentWallpaperline.jpg);
 width: 100%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 
-}
+} */
 
 header {
   display: flex;
