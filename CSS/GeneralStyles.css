@@ -12,12 +12,6 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-.backgroundimage{
-  filter: blur(0%);
-}
-
-
-
 
 header {
   display: flex;
