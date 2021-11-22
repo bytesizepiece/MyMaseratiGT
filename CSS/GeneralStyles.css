@@ -5,7 +5,7 @@
 
 body {
   color: white;
-  background-image: url(../../images/Background/MaseratiTridentWallpaperline.jpg);
+  background-image: url(/images/Background/MaseratiTridentWallpaperline.jpg);
   background-repeat: repeat-y;
   background-position: center;
   background-size: cover;
