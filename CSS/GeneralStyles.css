@@ -5,17 +5,19 @@
 
 body {
   color: white;
-background-color: black;
+background-image: url(../../images/Background/MaseratiTridentWallpaperline.jpg);
+background-repeat: repeat-y;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
 }
 
-/*.backgroundimage{
-background-image: url(/images/Background/MaseratiTridentWallpaperline.jpg);
-width: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+.backgroundimage{
+  filter: blur(0%);
+}
 
-} */
+
+
 
 header {
   display: flex;
