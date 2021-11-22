@@ -5,13 +5,12 @@
 
 body {
   color: white;
-background-image: url(../../images/Background/MaseratiTridentWallpaperline.jpg);
-background-repeat: repeat-y;
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
+  background-image: url(/images/Background/MaseratiTridentWallpaperline.jpg);
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
-
 
 header {
   display: flex;
