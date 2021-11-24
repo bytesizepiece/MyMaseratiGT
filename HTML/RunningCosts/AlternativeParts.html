@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="../../CSS/GeneralStyles.css" />
+    <link rel="stylesheet" type="text/css" href="/CSS/GeneralStyles.css" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="../../CSS/RunningCosts/AlternativeParts.css"
+      href="/CSS/RunningCosts/AlternativeParts.css"
     />
     <script src="https://use.fontawesome.com/89116cddde.js"></script>
-    <title>Alternative Parts</title>
+    <title>This is my car</title>
   </head>
   <body>
     <header>
@@ -34,12 +34,12 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="../../HTML/MyCar/ServiceHistory.html">Service History</a>
-            <a href="../../HTML/MyCar/Cleaning & Detailing.html"
+            <a href="HTML/MyCar/ServiceHistory.html">Service History</a>
+            <a href="HTML/MyCar/Cleaning & Detailing.html"
               >Cleaning & Detailing</a
             >
-            <a href="../../HTML/MyCar/GeneralPictures.html">General Pictures</a>
-            <a href="../../HTML/MyCar/PurchaseDetails.html">Purchase Details</a>
+            <a href="HTML/MyCar/GeneralPictures.html">General Pictures</a>
+            <a href="HTML/MyCar/PurchaseDetails.html">Purchase Details</a>
           </div>
         </div>
 
@@ -49,15 +49,15 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="../../HTML/RunningCosts/BuyingGuide.html">Buying Guide</a>
-            <a href="../../HTML/RunningCosts/ServiceSchedule.html"
+            <a href="HTML/RunningCosts/BuyingGuide.html">Buying Guide</a>
+            <a href="HTML/RunningCosts/ServiceSchedule.html"
               >Servicing Schedule</a
             >
-            <a href="../..//HTML/RunningCosts/MainCosts.html">Main Costs</a>
-            <a href="../../HTML/RunningCosts/AlternativeParts.html"
+            <a href="HTML/RunningCosts/MainCosts.html">Main Costs</a>
+            <a href="HTML/RunningCosts/AlternativeParts.html"
               >Alternative Parts</a
             >
-            <a href="../../HTML/RunningCosts/TaxAndFuel.html">Tax + Fuel</a>
+            <a href="HTML/RunningCosts/TaxAndFuel.html">Tax + Fuel</a>
           </div>
         </div>
 
@@ -67,14 +67,14 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="../../HTML/Specialists/OwnerForums.html">Owner Forums</a>
-            <a href="../../HTML/Specialists/SalesSpecialists.html"
+            <a href="HTML/Specialists/OwnerForums.html">Owner Forums</a>
+            <a href="HTML/Specialists/SalesSpecialists.html"
               >Sales Specialists</a
             >
-            <a href="../../HTML/Specialists/IndependentServicing.html"
+            <a href="HTML/Specialists/IndependentServicing.html"
               >Independent Servicing</a
             >
-            <a href="../../HTML/Specialists/Pre-PurchaseInspections.html"
+            <a href="HTML/Specialists/Pre-PurchaseInspections.html"
               >Pre-Purchase Inspections</a
             >
           </div>
@@ -82,32 +82,215 @@
       </div>
     </nav>
 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
     <section>
+      <div class="group">
+      <button type="button" class="collapsible"></button>
       <div class="content">
-        <h1>Number 1</h1>
-        <p></p>
+        <h1>Electrical Reset (battery disconnect)</h1>
+        <br />
+        <h3>
+          COMPONENT SELF-LEARNING IN THE EVENT OF BATTERY DISCONNECTION...
+        </h3>
+        <p>
+          After connecting the battery negative terminal, the following
+          self-learning operations must be performed to ensure that certain
+          connected devices acknowledge the system again:
+        </p>
+        <br /><br />
+        <h5>"EPB FAILURE" AND "PARKING BRAKE ENGAGED" WARNING LIGHTS</h5>
+        <p>
+          Each time the battery is reconnected, the “EPB FAILURE” and “PARKING
+          BRAKE ENGAGED” warning lights flash for about 10 seconds and then go
+          off. This is normal and not indicative of a failure.
+        </p>
+        <br /><br />
+        <h5>MOTOR DRIVEN THROTTLE SELF-LEARNING</h5>
+        <p>
+          Turn the ignition switch to ON and wait at least 15 seconds. After
+          performing the self-learning cycle for the “throttle position”, you
+          must perform the same cycle also for the timing variators (VVT). To do
+          this, start the engine and let it idle for about 20 seconds.
+        </p>
+        <br /><br />
+        <h5>CENTRAL DOOR LOCKING</h5>
+        <p>LOCK and UNLOCK the doors using the remote control.</p>
+        <br /><br />
+        <h5>NIT (IT node) and CLOCK</h5>
+        <p>
+          Turn the ignition switch to ON
+          <br />
+          Turn on the IT Node, reset the correct time and date since the IT node
+          looses this information every time the battery is disconnected.
+        </p>
+        <br /><br />
+        <h5>FRONT SEATS</h5>
+        <p>
+          Following any power cut-out (e.g. after using the battery master
+          switch or if the battery has run flat), check the seats to ensure that
+          they are operating properly when the power supply is available.
+          <br /><br />
+          Perform the following procedures on both seats in the event of a
+          malfunction. When the ignition key is at STOP and the door next to the
+          seat concerned is closed, open the door and start the following
+          procedure within 5 seconds, then complete it within 10 seconds.
+          <br /><br />
+         <ul>
+          <li> Forward - STOP </li>
+          <li> Backward - STOP </li>
+          <li> Forward - STOP </li>
+          <li> Backward - STOP </li>
+          </ul>
+          <br />
+          Tilt the seatback fully forward and wait until the seat performs two
+          complete travels (forward and backward).
+          <br /><br />
+          Put the backrest in the normal position. If you need to disconnect the
+          battery, wait at least 30 seconds from the last seat movement. If you
+          disconnect the battery before, you will have to run the initialisation
+          procedure.
+        </p>
+        <br /><br />
+
+        <h5>TGK VALVE STROKE SELF-LEARNING</h5>
+        <p>
+          Every time the battery is connected, the acquisition procedure relating to both the water valves is started. After connecting the battery, turn the key to ON and wait at least 15 seconds before starting the engine.
+          <br>  <br>
+          The phases for a correct self-learning of the strokes are the the following:
+          <br> <br> 
+          <ul>
+       
+            <li> complete valve opening (max. 6 seconds)</li>
+            <li> memorisation of the opening position of both valves (950 on the average) </li>
+            <li> complete valve closing (max. 6 seconds) </li>
+            <li> memorisation of the closing position of both valves (50 on the
+          average) </li> 
+            <li> memorisation of both valves' stroke (Stroke=Opening-Closing,
+          900 on the average) </li>
+          </ul>
+<br><br>
+          <h5> Stroke Analysis </h5>
+          <p>if even only one of the 2 strokes
+          is below 500, both strokes are assigned a recovery value of 800 and
+          the procedure is repeated upon the next network wake-up or when the
+          key is turned to ON if both strokes are above 500, the strokes
+          correspond to those calculated and the procedure will not be repeated
+          upon the next network wake-up or when the key is turned to ON</p>
+        </p>
+      </div>
+    </div>
+
+
+      <div class="group">
+            <button type="button" class="collapsible"></button>
+      <div class="content">
+        <h1>Battery</h1>
+        <p>Bosch S5 Car Battery 12V 100Ah 830CCA S5013 Type 019 
+          <br>
+          Granturismo (2008-)</p>
+      </div>
       </div>
 
+            <div class="group">
+                  <button type="button" class="collapsible"></button>
       <div class="content">
-        <h1>Number 2</h1>
-        <p></p>
+        <h1>Tyre Pressure Monitor System</h1>
+        <p>
+This is the OEM sensor but without the Maserati/Ferrari branding. Each one comes with a new valve and seals, so no need to buy the valve service kit (the alloywheelsdirect photo doesn't show the valve).
+
+Huf Beru RDE001
+http://www.alloywheelsdirect.net/tpms/huf_beru_tpms_sensors
+
+At the time of writing they are  £67.20 each plus  £10 delivery inc VAT, so just over  £280 delivered for 4.
+
+Compatibility list from US vendor TPMS Direct:
+2010 GranTurismo
+2010 GranTurismo S Automatic
+2009 GranTurismo
+2009 GranTurismo S
+2008 GranTurismo
+2008 GranTurismo S
+
+NB It doesn't matter if you move the sensors to a different corner because each wheel arch has its own aerial to tell the car which sensor it's talking to. So you just have the new sensor fitted and press the button to calibrate, as in the manual.
+</p>
+      </div>
       </div>
 
+            <div class="group">
+      <button type="button" class="collapsible"></button>
       <div class="content">
-        <h1>Number 3</h1>
-        <p></p>
+        <h1>Air Condition Compressor</h1>
+        <p>Original compressor. Part number 284728. GBP 1525
+https://www.eurospares.co.uk/parts/maserati/granturismo-2009-42-auto/cooling-heating/a-c-unit-engine-compartment-devices-45833
+
+Chinese unit, not a Delphi as advertised. GBP 264
+https://www.autoairconparts.co.uk/car-air-conditioning-compressor-pump-maserati-gran-turismo-4-2-petrol-manual-automatic-aug-2008-to-2017-part-14-2074p.html
+
+Delphi replacement unit.GBP 490
+https://www.compressor-express.co.uk/q-maserati-x-ac_compressor-x-granturismo-08--x-4.2-v8/ferrari-maserati-01-cvc-pv6
+</p>
+      </div>
+</div>
+
+<div class="group"></div>
+<button type="button" class="collapsible"></button>
+      <div class="content">
+        <h1>Rear Parking Sensors</h1>
+        <p>Skoda Superb - Part number: 3U0919275B 3U0919275A
+          <br>
+Maserati Price: £125, Alternative part: £14.99
+</p>
+      </div>
       </div>
 
+
+                  <div class="group">
+    <button type="button" class="collapsible"></button>
       <div class="content">
-        <h1>Number 4</h1>
-        <p></p>
+        <h1>Tyres</h1>
+        <p>Standard tyres are Pirelli P Zero
+          <br>
+           The general recommendation for UK weather is to switch to Michelin Pilot Sport 4 tyres
+        </p>
+      </div>
       </div>
 
-      <div class="content">
-        <h1>Number 5</h1>
-        <p></p>
-      </div>
+
+
     </section>
+
+
+      <script>
+       var coll = document.getElementsByClassName("\collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+          } else {
+        content.style.display = "block";
+        }
+        });
+        }
+      </script>
 
     <article></article>
 
