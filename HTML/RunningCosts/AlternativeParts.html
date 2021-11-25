@@ -83,14 +83,12 @@
     </nav>
 
     <section>
-      <div class="group">
-      <button type="button" class="collapsible"></button>
+      <button type="button" class="collapsible">Electrical Reset (battery disconnect)</button>
       <div class="content">
-        <h1>Electrical Reset (battery disconnect)</h1>
         <br />
-        <h3>
+        <h5>
           COMPONENT SELF-LEARNING IN THE EVENT OF BATTERY DISCONNECTION...
-        </h3>
+        </h5>
         <p>
           After connecting the battery negative terminal, the following
           self-learning operations must be performed to ensure that certain
@@ -177,48 +175,44 @@
           upon the next network wake-up or when the key is turned to ON</p>
         </p>
       </div>
-    </div>
+    
 
 
-      <div class="group">
-            <button type="button" class="collapsible"></button>
+            <button type="button" class="collapsible">Battery Replacement</button>
       <div class="content">
-        <h1>Battery</h1>
         <p>Bosch S5 Car Battery 12V 100Ah 830CCA S5013 Type 019 
-          <br>
+          <br><br>
           Granturismo (2008-)</p>
       </div>
-      </div>
 
-            <div class="group">
-                  <button type="button" class="collapsible"></button>
+
+
+                  <button type="button" class="collapsible">Tyre Pressure Monitor System</button>
       <div class="content">
-        <h1>Tyre Pressure Monitor System</h1>
         <p>
-This is the OEM sensor but without the Maserati/Ferrari branding. Each one comes with a new valve and seals, so no need to buy the valve service kit (the alloywheelsdirect photo doesn't show the valve).
+This is the OEM sensor but without the Maserati/Ferrari branding. Each one comes with a new valve and seals, so no need to buy the valve service kit (the alloy wheels direct photo doesn't show the valve).
+<br><br>
 
-Huf Beru RDE001
-http://www.alloywheelsdirect.net/tpms/huf_beru_tpms_sensors
-
+Huf Beru RDE001 <br>
+<a href="http://www.alloywheelsdirect.net/tpms/huf_beru_tpms_sensors">AlloyWheelsDirect - Link</a> 
+<br><br>
 At the time of writing they are  £67.20 each plus  £10 delivery inc VAT, so just over  £280 delivered for 4.
-
-Compatibility list from US vendor TPMS Direct:
-2010 GranTurismo
-2010 GranTurismo S Automatic
-2009 GranTurismo
-2009 GranTurismo S
-2008 GranTurismo
-2008 GranTurismo S
-
+<br><br>
+Compatibility list from US vendor TPMS <br>
+2010 GranTurismo <br>
+2010 GranTurismo S Automatic <br>
+2009 GranTurismo <br>
+2009 GranTurismo S <br>
+2008 GranTurismo <br>
+2008 GranTurismo S <br>
+<br>
 NB It doesn't matter if you move the sensors to a different corner because each wheel arch has its own aerial to tell the car which sensor it's talking to. So you just have the new sensor fitted and press the button to calibrate, as in the manual.
 </p>
       </div>
-      </div>
 
-            <div class="group">
-      <button type="button" class="collapsible"></button>
+
+      <button type="button" class="collapsible">Air Con Compressor</button>
       <div class="content">
-        <h1>Air Condition Compressor</h1>
         <p>Original compressor. Part number 284728. GBP 1525
 https://www.eurospares.co.uk/parts/maserati/granturismo-2009-42-auto/cooling-heating/a-c-unit-engine-compartment-devices-45833
 
@@ -229,52 +223,51 @@ Delphi replacement unit.GBP 490
 https://www.compressor-express.co.uk/q-maserati-x-ac_compressor-x-granturismo-08--x-4.2-v8/ferrari-maserati-01-cvc-pv6
 </p>
       </div>
-</div>
 
-<div class="group">
-<button type="button" class="collapsible"></button>
+
+<button type="button" class="collapsible">Rear Parking Sensor</button>
       <div class="content">
-        <h1>Rear Parking Sensors</h1>
         <p>Skoda Superb - Part number: 3U0919275B 3U0919275A
           <br>
 Maserati Price: £125, Alternative part: £14.99
 </p>
       </div>
-      </div>
+  
 
 
-                  <div class="group">
-    <button type="button" class="collapsible"></button>
+
+    <button type="button" class="collapsible">Tyres</button>
       <div class="content">
-        <h1>Tyres</h1>
         <p>Standard tyres are Pirelli P Zero
           <br>
            The general recommendation for UK weather is to switch to Michelin Pilot Sport 4 tyres
         </p>
       </div>
-      </div>
+  
 
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
 
     </section>
 
 
-      <script>
-       var coll = document.getElementsByClassName("\collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-        content.style.display = "none";
-          } else {
-        content.style.display = "block";
-        }
-        });
-        }
-      </script>
 
     <article></article>
 
