@@ -153,6 +153,12 @@ ul {
   padding-left: 2rem;
 }
 
+
+ol {
+  padding-left: 2rem;
+}
+
+
 h1 {
   text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
   font-style: italic;
